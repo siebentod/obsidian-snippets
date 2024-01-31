@@ -1,4 +1,4 @@
-This DataviewJS query takes all notes with #repetition tag and "repetition" property with value less then 5. And presents it with buttons +1 and -1, which affect "repetition" property
+This DataviewJS query takes all notes with #repetition tag and "repetition" property with value less then 5. And presents it with buttons +1 and -1, which affect "repetition" property. Works with inline fields
 
 ```dataviewjs
 const {update} = this.app.plugins.plugins["metaedit"].api
