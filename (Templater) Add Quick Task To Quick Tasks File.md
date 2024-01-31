@@ -1,4 +1,4 @@
-This template adds a task to the top of a specified file (used to parse it with Tasks queries). Description taken from prompt
+This template adds a task to the top of a specified "Quick Tasks.md" file (used to parse it with Tasks queries). Description taken from prompt
 
 ```
 <%*
