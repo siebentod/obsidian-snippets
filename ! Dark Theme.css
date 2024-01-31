@@ -44,14 +44,6 @@ h1, h2, h3 {
   margin: 0 !important;
 }
 
-.cm-formatting-header:not(:active) {
-  font-size: 0;
-}
-
-h5.tasks-group-heading * {
-  font-size: 14px;
-}
-
 h1 {
   background: wheat;
 }
