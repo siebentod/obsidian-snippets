@@ -1,0 +1,23 @@
+.view-content.node-insert-event .tree-item-self {
+  margin: 0 0 0 -20px !important;
+  padding: 0 2px 0 16px !important;
+  line-height: 1.5 !important;
+}
+
+.tree-item.nav-folder.mod-root .nav-folder-title {
+  margin: 0 0 0 -20px !important;
+  padding: 0 2px 0 16px !important;
+  line-height: 1.5 !important;
+}
+
+.tree-item.nav-folder.mod-root .nav-file-title {
+  margin: 0 0 0 -20px !important;
+  padding: 0 2px 0 20px !important;
+  line-height: 1.5 !important;
+}
+
+/*Miniaturization of "Recent Files" & etc*/
+.tree-item-self {
+  padding-top: 0;
+  padding-bottom: 0;
+}
