@@ -1,7 +1,16 @@
+/* Bold and Italic -> COLORS */
+
+.markdown-source-view .cm-em, .markdown-source-view em {
+  font-style: normal;
+  color: Wheat ;
+}
+
 .cm-strong, strong
 {
   color: Tomato;
 }
+
+/*Misc*/
 
 .markdown-source-view.mod-cm6 hr
 {
@@ -11,13 +20,6 @@
 * {
   --color-accent-1: rgb(217, 129, 129) !important;
   --color-accent-2: rgb(233, 182, 182) !important;
-}
-
-/* Bold and Italic -> COLORS */
-
-.markdown-source-view .cm-em, .markdown-source-view em {
-  font-style: normal;
-  color: Wheat ;
 }
 
 /*LINKS*/
