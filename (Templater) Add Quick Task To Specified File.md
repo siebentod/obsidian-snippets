@@ -1,5 +1,6 @@
 This template adds task to the top of a specified file
 
+```
 <%*
 let filePath = 'Path/Quick Tasks.md';  // Insert your 'Path/Filename'! Directory must exist
 let file = this.app.vault.getAbstractFileByPath(filePath);
@@ -13,3 +14,4 @@ let curContent = await this.app.vault.read(file);
 let newContents = appendTask + '\n' + curContent;
 this.app.vault.modify(file, newContents);
 %>
+```
