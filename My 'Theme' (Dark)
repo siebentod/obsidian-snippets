@@ -1,0 +1,112 @@
+/* Bold and Italic Colors */
+
+.markdown-source-view .cm-em, .markdown-source-view em {
+  font-style: normal;
+  color: Wheat ;
+}
+
+.cm-strong, strong
+{
+  color: Tomato;
+}
+
+.markdown-source-view.mod-cm6 hr
+{
+  border-color: White
+}
+
+/*LINKS*/
+
+.cm-header.cm-hmd-internal-link {
+  color: wheat !important;
+}
+
+.cm-hmd-barelink {
+  color: lch(50 30 310) !important;
+}
+
+*:has(.cm-url.external-link) > .cm-link {
+  color: wheat !important;
+}
+
+a.external-link {
+  color: wheat !important;
+}
+
+/*HEADINGS*/
+
+h1 + * {
+  margin-top: 0px !important;
+}
+
+h1, h2, h3 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.cm-formatting-header:not(:active) {
+  font-size: 0;
+}
+
+h5.tasks-group-heading * {
+  font-size: 14px;
+}
+
+h1 {
+  background: wheat;
+}
+
+h2 {
+  background: DarkSlateGrey;
+}
+
+.markdown-preview-view h1,
+.cm-embed-block h1,
+.HyperMD-header-1 {
+  background-color: rgb(55, 59, 68);
+  border-radius: 2px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: normal;
+  padding: 6px !important;
+  display: block !important;
+}
+
+.markdown-preview-view h2,
+.cm-embed-block h2,
+.HyperMD-header-2 {
+  background: DarkSlateGrey;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: normal;
+  padding: 6px !important;
+  display: block !important;
+}
+
+.markdown-preview-view h3,
+.HyperMD-header-3,
+.cm-s-obsidian .cm-header-3 {
+  padding-top: 2px !important;
+  padding-bottom: 1px !important;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.markdown-preview-view h4,
+.HyperMD-header-4,
+.cm-s-obsidian .cm-header-4 {
+  padding-top: 2px !important;
+  padding-bottom: 1px !important;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.markdown-preview-view h5,
+.HyperMD-header-5,
+.cm-s-obsidian .cm-header-5 {
+  padding-top: 2px !important;
+  padding-bottom: 1px !important;
+  font-size: 15px;
+  margin: 0px;
+}
