@@ -1,4 +1,4 @@
-This template adds task to the top of a specified file
+This template adds a task to the top of a specified file (used to parse it with Tasks queries). Description taken from prompt
 
 ```
 <%*
