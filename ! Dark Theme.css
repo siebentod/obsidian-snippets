@@ -51,14 +51,6 @@ h1, h2, h3 {
   margin: 0 !important;
 }
 
-h1 {
-  background: wheat;
-}
-
-h2 {
-  background: DarkSlateGrey;
-}
-
 .markdown-preview-view h1,
 .cm-embed-block h1,
 .HyperMD-header-1 {
@@ -84,12 +76,15 @@ h2 {
 }
 
 .markdown-preview-view h3,
-.HyperMD-header-3,
-.cm-s-obsidian .cm-header-3 {
-  padding-top: 2px !important;
-  padding-bottom: 1px !important;
-  font-size: 15px;
-  margin: 0px;
+.cm-embed-block h3,
+.HyperMD-header-3 {
+  background: DarkSlateBlue;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: normal;
+  padding: 6px !important;
+  display: block !important;
 }
 
 .markdown-preview-view h4,
