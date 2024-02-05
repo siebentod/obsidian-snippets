@@ -1,3 +1,4 @@
+```
 <%*
 let archiveFilePath = '! Tagebuch/Tasks/Archive/Archived Tasks (Archive).md'; //Here you can input your path and filename!
 let archiveFile = this.app.vault.getAbstractFileByPath(archiveFilePath);
@@ -31,3 +32,4 @@ if (firstMatch != undefined) {
 	await this.app.vault.modify(quickFile, quickContent);
 }
 %>
+```
