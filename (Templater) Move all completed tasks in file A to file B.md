@@ -1,3 +1,5 @@
+Completed tasks are moved to the top of 'Archive' file, from special 'Quick Tasks' file. See also [Quick tasks script](https://github.com/siebentod/obsidian-snippets/blob/main/(Templater)%20Add%20New%20Task%20To%20'Quick%20Tasks'%20File.md)
+
 ```
 <%*
 let archiveFilePath = '! Tagebuch/Tasks/Archive/Archived Tasks (Archive).md'; //Here you can input your path and filename!
