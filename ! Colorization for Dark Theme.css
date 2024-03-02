@@ -17,11 +17,6 @@
   border-color: White
 }
 
-* {
-  --color-accent-1: rgb(217, 129, 129) !important;
-  --color-accent-2: rgb(233, 182, 182) !important;
-}
-
 /*LINKS*/
 
 .cm-header.cm-hmd-internal-link {
