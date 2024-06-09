@@ -10,13 +10,6 @@
   color: Tomato;
 }
 
-/*Misc*/
-
-.markdown-source-view.mod-cm6 hr
-{
-  border-color: White
-}
-
 /*LINKS*/
 
 .cm-header.cm-hmd-internal-link {
@@ -48,9 +41,11 @@ h1, h2, h3 {
 
 .markdown-preview-view h1,
 .cm-embed-block h1,
-.HyperMD-header-1 {
+.HyperMD-header-1
+/*.cm-header-1*/ {
   background-color: rgb(55, 59, 68);
-  border-radius: 2px;
+  border: 1px ridge wheat;
+  border-radius: 5px !important;
   text-align: center;
   font-size: 17px;
   font-weight: normal;
@@ -60,42 +55,68 @@ h1, h2, h3 {
 
 .markdown-preview-view h2,
 .cm-embed-block h2,
-.HyperMD-header-2 {
-  background: DarkSlateGrey;
-  border-radius: 2px;
-  text-align: center;
+.HyperMD-header-2
+/*.cm-header-2*/ {
+  background: #5d5581;
+  border: 1px ridge wheat;
+  border-radius: 5px !important;
+  padding: 4px !important;
   font-size: 17px;
   font-weight: normal;
-  padding: 6px !important;
   display: block !important;
+  width: fit-content; !important;
 }
 
 .markdown-preview-view h3,
-.cm-embed-block h3,
-.HyperMD-header-3 {
+.cm-embed-block h3:not(.nav *),
+.HyperMD-header-3
+/*.cm-header-3*/ {
   background: DarkSlateBlue;
-  border-radius: 2px;
-  text-align: center;
+  border: 1px ridge wheat;
+  border-radius: 5px !important;
   font-size: 17px;
   font-weight: normal;
-  padding: 6px !important;
+  padding: 4px !important;
   display: block !important;
+  width: fit-content; !important;
 }
 
 .markdown-preview-view h4,
-.HyperMD-header-4,
-.cm-s-obsidian .cm-header-4 {
-  padding-top: 2px !important;
-  padding-bottom: 1px !important;
-  font-size: 15px;
-  margin: 0px;
+.cm-embed-block h4:not(.nav *),
+.HyperMD-header-4
+/*.cm-header-3*/ {
+  background: #352f57;
+  border: 1px ridge wheat;
+  border-radius: 5px !important;
+  font-size: 17px;
+  font-weight: normal;
+  padding: 4px !important;
+  display: block !important;
+  width: fit-content; !important;
 }
 
 .markdown-preview-view h5,
-.HyperMD-header-5,
-.cm-s-obsidian .cm-header-5 {
-  padding-top: 2px !important;
-  padding-bottom: 1px !important;
-  font-size: 15px;
-  margin: 0px;
+.cm-embed-block h5:not(.nav *),
+.HyperMD-header-5
+/*.cm-header-3*/ {
+  background: #231f35;
+  border: 1px ridge wheat;
+  border-radius: 5px !important;
+  font-size: 17px;
+  font-weight: normal;
+  padding: 1px 4px 1px 4px !important;
+  display: block !important;
+  width: fit-content; !important;
+}
+
+/*Misc*/
+
+.markdown-source-view.mod-cm6 hr
+{
+  border-color: White
+}
+
+h5.tasks-group-heading * {
+  font-size: 14px;
+  border: 0;
 }
