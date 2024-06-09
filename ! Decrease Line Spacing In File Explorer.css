@@ -4,11 +4,17 @@
 
 .nav-folder-title {
   margin: 0 0 0 -20px !important;
-  padding: 0 2px 0 20px !important;
-  line-height: 1.5 !important;
+  padding: 0 2px 0 16px !important;
+  line-height: 1.4 !important;
 }
 
+.nav-file-title {
+  margin: 0 0 0 -20px !important;
+  padding: 0 2px 0 16px !important;
+  line-height: 1.3 !important;
+}
+
+/*Bookmarks*/
 .tree-item-self {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0;
 }
