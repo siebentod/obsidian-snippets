@@ -1,4 +1,4 @@
-See also [Move Current String or Selection to the Top](https://github.com/siebentod/obsidian-snippets/blob/main/(Templater)%20Move%20all%20completed%20tasks%20in%20file%20A%20to%20file%20B.md).
+See also [Move Current String or Selection to the Top](https://github.com/siebentod/obsidian-snippets/blob/main/(Templater)%20Move%20Current%20String%20or%20Selection%20to%20the%20Top.md).
 If string or selection is not unique, it could choose incorrect heading.
 
 ```
