@@ -1,4 +1,4 @@
-See also [Move String or Selection Under Next Heading](https://github.com/siebentod/obsidian-snippets/blob/main/(Templater)%20Move%20all%20completed%20tasks%20in%20file%20A%20to%20file%20B.md).
+See also [Move String or Selection Under the Next Heading](https://github.com/siebentod/obsidian-snippets/blob/main/(Templater)%20Move%20Current%20String%20or%20Selection%20Under%20Next%20Heading.md).
 
 ```
 <%*
